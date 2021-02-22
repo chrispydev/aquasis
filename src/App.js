@@ -1,10 +1,12 @@
+import styled from "styled-components";
 import Header from "./components/navigation/Header";
+import { AppWrapper } from "./utils";
 
 function App() {
   return (
-    <div>
+    <AppWrapper>
       <Header />
-    </div>
+    </AppWrapper>
   );
 }
 

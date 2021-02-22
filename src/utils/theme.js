@@ -1,12 +1,8 @@
 const theme = {
   colors: {
-    main: "#1b76e7",
-    mainDark: "#00171F",
-    mainLight: "rgba(67, 251, 21, 0.8)",
-    mianLighter: "#00A8E8",
-    whiteColor: "#f1f1f1",
-    whiteColorDark: "#000",
-    shadow: "rgba(0,0,0,.2)",
+    main: "#ffc600",
+    textColor: "#426696",
+    dark: "#000000",
   },
 
   mediaQueries: {

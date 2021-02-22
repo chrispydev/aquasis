@@ -3,14 +3,30 @@ import styled from "styled-components";
 
 const Brand = styled.a`
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-left: 1.5rem;
   text-transform: uppercase;
   text-decoration: none;
+  color: var(--color-textColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+
+const LogoImage = styled.img`
+  height: 3.4rem;
+  object-fit: cover;
+  margin-bottom: 0.7rem;
 `;
 
 const Logo = ({ children, to }) => {
-  return <Brand href={to}>{children}</Brand>;
+  return (
+    <Brand href={to}>
+      <LogoImage src="/images/logo.png" alt="aquasis" />
+      {children}
+    </Brand>
+  );
 };
 
 export default Logo;

@@ -6,12 +6,15 @@ import GlobalStyles from "../src/utils/global";
 import theme from "../src/utils/theme";
 
 import App from "./App";
+import { MainWrapper } from "./utils";
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
     <>
-      <App />
-      <GlobalStyles></GlobalStyles>
+      <MainWrapper>
+        <App />
+        <GlobalStyles></GlobalStyles>
+      </MainWrapper>
     </>
   </ThemeProvider>,
   document.getElementById("root")

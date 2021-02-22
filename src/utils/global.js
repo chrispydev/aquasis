@@ -11,12 +11,8 @@ export default createGlobalStyle`
       /* font-size: 75.5%; */
       box-sizing: border-box;
       --color-main: ${(props) => props.theme.colors.main};
-      --color-mainDark: ${(props) => props.theme.colors.mainDark};
-      --color-mainLight: ${(props) => props.theme.colors.mainLight};
-      --color-mainLighter: ${(props) => props.theme.colors.mainLighter};
-      --color-whiteColor: ${(props) => props.theme.colors.whiteColor};
-      --color-textColorDark: ${(props) => props.theme.colors.textColorDark};
-      --shadow: ${(props) => props.theme.colors.shadow};
+      --color-textColor: ${(props) => props.theme.colors.textColor};
+      --color-textDark: ${(props) => props.theme.colors.textDark};
 
       @media ${(props) => props.theme.mediaQueries.small} {
           /* font-size: 70%; */
@@ -33,6 +29,26 @@ export default createGlobalStyle`
 
     body {
       font-family: 'Roboto', sans-serif;
-      line-height: 1.5
+      line-height: 1.5;
+      background-color: rgb(11 ,66 ,152);
     }
+
+    h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
 `;
