@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { ThemeProvider } from "styled-components";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import GlobalStyles from "../src/utils/global";
 import theme from "../src/utils/theme";

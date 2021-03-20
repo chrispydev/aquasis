@@ -6,14 +6,12 @@ export const MainWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right top, #2196f3, #6cdbeb);
 `;
 
 export const AppWrapper = styled.div`
   width: 90vw;
-  min-height: 90vh;
-  max-height: 90vh;
-  overflow: hidden;
+  height: 90vh;
+  /* overflow: hidden; */
   border-radius: 3rem;
   background: linear-gradient(
     to right bottom,

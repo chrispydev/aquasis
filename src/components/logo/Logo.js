@@ -5,6 +5,7 @@ const Brand = styled.a`
   font-weight: 900;
   font-size: 1rem;
   margin-left: 1.5rem;
+  margin-bottom: 3rem;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--color-textColor);
@@ -16,7 +17,7 @@ const Brand = styled.a`
 
 const LogoImage = styled.img`
   height: 3.4rem;
-  object-fit: cover;
+  object-fit: contain;
   margin-bottom: 0.7rem;
 `;
 

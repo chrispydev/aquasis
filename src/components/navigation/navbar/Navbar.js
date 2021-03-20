@@ -6,13 +6,13 @@ import Nav from "../nav/Nav";
 
 const NavbarWrapper = styled.header`
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
   width: fit-content;
-  height: 100vh;
+  height: 100%;
+  border-radius: inherit;
   background: rgba(255, 255, 255, 0.3);
-  /* background: #f2f2f2; */
   padding: 1.2rem;
 `;
 

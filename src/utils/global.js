@@ -30,7 +30,7 @@ export default createGlobalStyle`
     body {
       font-family: 'Roboto', sans-serif;
       line-height: 1.5;
-      background-color: rgb(11 ,66 ,152);
+      background: linear-gradient(to right top, #2196f3, #6cdbeb);
     }
 
     h1 {
